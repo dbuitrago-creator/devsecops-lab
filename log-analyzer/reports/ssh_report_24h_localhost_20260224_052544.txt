@@ -1,0 +1,11 @@
+==========================================
+SSH SECURITY REPORT - Tue Feb 24 05:25:44 AM EST 2026
+Host: localhost
+OS: Rocky Linux 10.1 (Red Quartz)
+SSH Profile Unit Default: sshd.service
+SSH Journal Mode: comm
+SSH Journal Key: sshd
+Range: 24h (since: 24 hours ago)
+==========================================
+
+[!] TOP 10 FAILED SSH ATTEMPTS BY IP (since 24 hours ago):

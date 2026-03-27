@@ -1,0 +1,23 @@
+==========================================
+SSH SECURITY REPORT - Tue Feb 24 04:45:00 AM EST 2026
+Host: localhost
+OS: Rocky Linux 10.1 (Red Quartz)
+SSH Profile Unit Default: sshd.service
+SSH Journal Mode: unit
+SSH Journal Key: sshd
+Range: 24h (since: 24 hours ago)
+==========================================
+
+[!] TOP 10 FAILED SSH ATTEMPTS BY IP (since 24 hours ago):
+      7 192.168.88.135
+
+[✓] LAST 10 ACCEPTED SESSIONS (since 24 hours ago):
+Feb 23 13:39:57  user=diego  ip=192.168.88.1  method=publickey
+Feb 23 20:26:09  user=diego  ip=192.168.88.135  method=password
+Feb 23 20:26:20  user=diego  ip=192.168.88.135  method=password
+Feb 23 20:26:35  user=diego  ip=192.168.88.135  method=password
+Feb 24 03:07:45  user=diego  ip=192.168.88.1  method=publickey
+
+[!] SUDO FAILURES (since 24 hours ago):
+Feb 23 18:33:47 localhost.localdomain sudo[2676]: pam_unix(sudo:auth): authentication failure; logname=diego uid=1000 euid=0 tty=/dev/pts/0 ruser=diego rhost=  user=diego
+Feb 23 20:54:21 localhost.localdomain sudo[3245]: pam_unix(sudo:auth): authentication failure; logname=diego uid=1000 euid=0 tty=/dev/pts/0 ruser=diego rhost=  user=diego
