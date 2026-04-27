@@ -1,4 +1,4 @@
-# 🚀 DevOps Engineering Lab — High-Level Overview  
+# DevSecOps Engineering Lab — High-Level Overview  
 *A hands-on portfolio demonstrating Linux, automation, scripting, DevOps tooling, and infrastructure skills.*
 
 ## 📌 Purpose of This Lab
